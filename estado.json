@@ -1,0 +1,177 @@
+{
+  "ts": "2026-09-17T20:47:00.600Z",
+  "maquina": "harness-2001 (Azure, gasto 0)",
+  "recursos": {
+    "disco": {
+      "libre_mb": 8317,
+      "total_mb": 31571
+    },
+    "ram": {
+      "libre_mb": 4975
+    },
+    "carga": [
+      0.42,
+      0.27,
+      0.96
+    ]
+  },
+  "vigilante": {
+    "hora": "2026-09-17T20:46:56.894Z",
+    "total": 18,
+    "enMarcha": 18,
+    "relanzados": 0,
+    "fallos": 0
+  },
+  "servicios": [
+    {
+      "nombre": "actions.runner.ismatv2001-png-c13-r3-local-recount-candidate.azure-2001-c13.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "actions.runner.ismatv2001-png-margen.azure-2001-margen.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "actions.runner.ismatv2001-png-portal-paginas.azure-2001-portal.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "centro-nube.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "cuadricula-agentes-nube.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "cuadricula-obreros-nube.service",
+      "estado": "activating",
+      "sub": "auto-restart"
+    },
+    {
+      "nombre": "deformacionobra-nube.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "di20260820-nube.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "harness-browser-dashboard.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "harness-desktop.service",
+      "estado": "active",
+      "sub": "exited"
+    },
+    {
+      "nombre": "harness-novnc.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "harness-owner-direct.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "harness-owner-viewer.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "harness-resource-observer.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "harness-runtime.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "harness-software-relay.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "margen-nube.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "portal-paginas.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "puerta-gratis.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "tiendaprueba-nube.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "tiendas-auto-cloud.service",
+      "estado": "active",
+      "sub": "running"
+    },
+    {
+      "nombre": "vuelaclaim-nube.service",
+      "estado": "active",
+      "sub": "running"
+    }
+  ],
+  "timers": [
+    {
+      "nombre": "deep-watch.timer",
+      "siguiente": ""
+    },
+    {
+      "nombre": "vigilante-nube.timer",
+      "siguiente": ""
+    },
+    {
+      "nombre": "guard24-nube.timer",
+      "siguiente": ""
+    },
+    {
+      "nombre": "ahorro-core-nube.timer",
+      "siguiente": ""
+    }
+  ],
+  "colas": {
+    "cola-20": {
+      "nota": "20 agentes gratis (Antigravity, razonamiento alto, dos pasadas). Coste 0 por recibo. Concurrencia limitada a 4 para no abusar del servicio gratuito.",
+      "tareas": 20
+    },
+    "cola-muchas": {
+      "nota": "Cola del pensamiento profundo: cada asunto pasa por 7 pasadas gratis (autor, crítico, corrector, verificador, experto, claridad, cierre). El obrero espera si el otro carril está trabajando.",
+      "tareas": 7
+    }
+  },
+  "puertaGratis": {
+    "groq": {
+      "ok": 13,
+      "fallo": 27,
+      "ultimo": "2026-09-17T19:36:13.658Z"
+    }
+  },
+  "deepWatch": {
+    "ts": "2026-09-17T20:43:55Z",
+    "fallos": [],
+    "servicio": "active"
+  }
+}
